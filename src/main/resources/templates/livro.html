@@ -1,0 +1,13 @@
+<!doctype html>
+<html xmlns:th="...">
+<head>
+    <title>Biblioteca</title>
+</head>
+<body>
+<div class="container">
+    <h1 th:text="${livro.titulo}"></h1>
+    <p><strong>Autor:</strong> <span th:text="${livro.autor}"></span></p>
+    <p><strong>ISBN:</strong> <span th:text="${livro.isbn}"></span></p>
+</div>
+</body>
+</html>
